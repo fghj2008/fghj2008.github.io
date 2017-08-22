@@ -161,36 +161,37 @@ li {
 /*设置背景，响应式请利用媒体查询根据断点修改路径*/
 
 .slider-item1 {
-    background-image: url("../1.jpg");
+    background-image: url("../images/1.jpg");
     background-size: cover;
     background-position:50% 0%;
     background-color:rgba(255,255,255,0.5);
 }
 
 .slider-item2 {
-    background-image: url("../24370340910_17abf2e4e5_o.jpg");
+    background-image: url("../images/24370340910_17abf2e4e5_o.jpg");
     background-size: cover;
     background-position:50% 0%;
     background-color:rgba(255,255,255,0.5);
 }
 
 .slider-item3 {
-    background-image: url("../3.jpg");
+    background-image: url("../images/3.jpg");
     background-size: cover;
     background-position:50% 0%;
     background-color:rgba(255,255,255,0.5);
 }
 
 .slider-item4 {
-    background-image: url("../4.jpg");
+    background-image: url("../images/4.jpg");
     background-size: cover;
     background-position:50% 0%;
     background-color:rgba(255,255,255,0.5);
 }
 
 .slider-item5 {
-    background-image: url("../5.jpg");
+    background-image: url("../images/5.jpg");
     background-size: cover;
+    background-position:50% 0%;
     background-color:rgba(255,255,255,0.5);
 }
 

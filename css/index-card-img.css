@@ -1,9 +1,8 @@
 .card {
     position: relative;
-    margin-top: 50px;
+    margin-top: 80px;
     margin: 0 auto;
-width: 100%;
-    
+    width: 100%;
 }
 
 .card-img {
@@ -11,91 +10,122 @@ width: 100%;
     border-radius: 5px;
     width: 100%;
     height: 200px;
-    background-image: url("../2016071118114433844 (1).jpg");
+    background-image: url("../images/2016071118114433844 (1).jpg");
     background-size: 200%;
     transition: all 0.5s;
     background-position: center;
     position: absolute;
-left:10%;
-    
+    left: 10%;
 }
+
 .card-text {
     border-radius: 0 0 5px 5px;
     text-align: center;
     box-sizing: border-box;
     padding: 10px;
     width: 100%;
-    height: 100px;
+    height: 80px;
     position: absolute;
     bottom: -200px;
     background-color: rgba(0, 0, 0, 0.5);
     color: white;
-left:10%;
+    left: 10%;
 }
 
 .card-img:hover {
     background-size: 220%;
 }
+
 .card-img1 {
     border: 4px solid white;
     border-radius: 5px;
     width: 100%;
     height: 200px;
-    background-image: url("../4696134479_d47f0c6d89_o.jpg");
+    background-image: url("../images/4696134479_d47f0c6d89_o.jpg");
     background-size: 200%;
     transition: all 0.5s;
     background-position: center;
     position: absolute;
-left: 10%;
+    left: 10%;
 }
+
 .card-text1 {
     border-radius: 0 0 5px 5px;
     text-align: center;
     box-sizing: border-box;
     padding: 10px;
     width: 100%;
-    height: 100px;
+    height: 80px;
     position: absolute;
-    bottom:-200px;
+    bottom: -200px;
     background-color: rgba(0, 0, 0, 0.5);
     color: white;
-left: 10%;
+    left: 10%;
 }
+
 .card-img1:hover {
     background-size: 220%;
 }
+
 .card-img2 {
     border: 4px solid white;
     border-radius: 5px;
     width: 100%;
     height: 200px;
-    background-image: url("../adf.jpg");
+    background-image: url("../images/adf.jpg");
     background-size: 200%;
     transition: all 0.5s;
     background-position: center;
     position: absolute;
-left: 10%;
+    left: 10%;
 }
+
 .card-text2 {
     border-radius: 0 0 5px 5px;
     text-align: center;
     box-sizing: border-box;
     padding: 10px;
     width: 100%;
-    height: 100px;
+    height: 80px;
     position: absolute;
     bottom: -200px;
     background-color: rgba(0, 0, 0, 0.5);
     color: white;
-left: 10%;
+    left: 10%;
 }
+
 .card-img2:hover {
     background-size: 220%;
 }
-.index-h1{
-    background-image: url("../index-text.png");
+
+.index-h1 {
+    background-image: url("../images/index-text.png");
     width: 250px;
-    height:350px;
+    height: 350px;
     background-size: cover;
     margin: 0 auto;
 }
+ 
+
+
+.p {
+    font-size: 18px;
+    margin-top: 30px;
+    font-weight: 500;
+    text-shadow: 2px 2px 2px #000;
+}
+
+.ma {
+    margin-top: 100px;
+}
+@media screen and (max-width:767px) {
+    .ma {
+        margin-top: 200px;
+
+     }
+ }
+
+.sk {
+    margin-top: 60px;
+}
+

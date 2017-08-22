@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-  <title>Bootstrap 101 Template</title>
+  <title>index</title>
 
   <!-- Bootstrap -->
   <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -24,41 +24,14 @@
     * {
       padding: 0px;
       margin: 0px;
-      /* border: 1px solid; */
-    }
-
-    .logo {
-      background-image: url("LOGO.gif");
-      background-size: cover;
-      height: 60px;
-      width: 60px;
-      position: absolute;
-      top: 25px;
-      left: 50px;
-    }
-
-    .footer {
-      position: absolute;
-      bottom: 0;
-      width: 100%;
-      background: black;
-      min-height: 100px;
-    }
-
-    .p {
-      font-size: 24px;
-      margin-top: 30px;
-      font-weight:500;
-      text-shadow:2px 2px 2px #000;
-    }
-    .ma{
-      margin-top:100px; 
     }
   </style>
 
 </head>
 
 <body>
+
+
   <section class="content-fluid slider-contaner">
     <!--HamBurger Icon-->
     <div class="bars" id="nav-action">
@@ -67,18 +40,16 @@
     <!--Navbar Links-->
     <nav id="nav">
       <ul>
-        <li class="shape-circle circle-one"><a href="#">Contact</a></li>
-        <li class="shape-circle circle-two"><a href="#">Blog</a></li>
-        <li class="shape-circle circle-three"><a href="#">Work</a></li>
-        <li class="shape-circle circle-five">
-          <a href="#">Home</a>
-        </li>
+        <li class="shape-circle circle-one"><a href="#" style="text-decoration:none;">發現彰化</a></li>
+        <li class="shape-circle circle-two"><a href="#" style="text-decoration:none;">美食介紹</a></li>
+        <li class="shape-circle circle-three"><a href="#" style="text-decoration:none;">景點介紹</a></li>
+        <li class="shape-circle circle-five"><a href="#" style="text-decoration:none;">行程規劃</a></li>
       </ul>
     </nav>
     <!--Navbar Links-->
     <ul class="slider">
       <li class="slider-item slider-item1">
-        <h2 class="logo"></h2>
+        <a class="logo" href="#"></a>
         <!--HamBurger Icon-->
         <div class="bars" id="nav-action">
           <span class="bar"> </span>
@@ -102,45 +73,72 @@
           </div>
         </div>
         <!-- index-card-img -->
-        <div class="container">
+        <div class="container sk">
           <div class="row">
             <div class="col-md-offset-1 col-md-3 col-sm-4 hidden-xs ">
-              <div class="card">
-                <div class="card-img"></div>
-                <div class="card-text">
-                  <h5>text</h5>
+              <a href="">
+                <div class="card">
+                  <div class="card-img"></div>
+                  <div class="card-text">
+                    <h4>景點介紹</h4>
+                  </div>
                 </div>
-              </div>
+              </a>
             </div>
             <div class=" col-md-3 col-sm-4 hidden-xs">
+              <a href=""> 
               <div class="card">
                 <div class="card-img1"></div>
                 <div class="card-text1">
-                  <h5>text</h5>
+                  <h4>美食介紹</h4>
                 </div>
-              </div>
+              </div></a>
             </div>
             <div class="col-md-3 col-sm-4 hidden-xs">
+              <a href=""> 
               <div class="card">
                 <div class="card-img2"></div>
                 <div class="card-text2">
-                  <h5>text</h5>
+                  <h4>旅遊景點</h4>
                 </div>
-              </div>
+              </div></a>
             </div>
           </div>
         </div>
         <!-- index-card-img -->
-
-        <div class="footer">
-          <p>網站設計/ logo©2017 Stack Exchange Inc; 根據cc by-sa 3.0許可的用戶貢獻 ，需要歸因。</p>
+        <div class="content-fluid">
+          <div class="footer">
+            <ul class="ul">
+              <il class="footer-il"><a href="#" style="text-decoration:none;">美食介紹</a></il>
+              <il class="footer-il"><a href="#" style="text-decoration:none;">景點介紹</a></il>
+              <il class="footer-il"><a href="#" style="text-decoration:none;">旅遊景點</a></il>
+            </ul>
+            <ul class="ul">
+              <il class="footer-il-1">電話:+886-4-775-6386</il>
+              <il class="footer-il-1">信箱:a1234@email.com</il>
+              <il class="footer-il-2">營業時間:週一至週五 09:00~18:00</il>
+            </ul>
+            <ul class="ul">
+              <il class="footer-il-1">傳真:+886-4-778-9002</il>
+              <il class="footer-il-1">地址:台灣505彰化縣鹿港鎮中正路588號</il>
+              <il class="footer-il-1">Copyright © 2017 彰化尋訪.All rights reserved.</il>
+            </ul>
+            <div class="footer-fb">
+              <div class="footer-f">
+                <div class="fb-like" data-href="http://127.0.0.1:5500/" data-width="30px" data-layout="button_count" data-action="like" data-size="small"
+                  data-show-faces="true" data-share="true"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
         </div>
       </li>
 
 
 
       <li class="slider-item slider-item2">
-        <h2 class="logo"></h2>
+        <a class="logo" href="#"></a>
         <!--HamBurger Icon-->
         <div class="bars" id="nav-action">
           <span class="bar"> </span>
@@ -159,46 +157,71 @@
           </div>
         </div>
         <!-- index-card-img -->
-        <div class="container">
+        <div class="container sk">
           <div class="row">
             <div class="col-md-offset-1 col-md-3 col-sm-4 hidden-xs ">
+              <a href=""> 
               <div class="card">
                 <div class="card-img"></div>
                 <div class="card-text">
-                  <h5>text</h5>
+                  <h4>景點介紹</h4>
                 </div>
-              </div>
+              </div></a>
             </div>
             <div class=" col-md-3 col-sm-4 hidden-xs">
+              <a href=""> 
               <div class="card">
                 <div class="card-img1"></div>
                 <div class="card-text1">
-                  <h5>text</h5>
+                  <h4>美食介紹</h4>
                 </div>
-              </div>
+              </div></a>
             </div>
             <div class="col-md-3 col-sm-4 hidden-xs">
+              <a href=""> 
               <div class="card">
                 <div class="card-img2"></div>
                 <div class="card-text2">
-                  <h5>text</h5>
+                  <h4>旅遊景點</h4>
                 </div>
-              </div>
+              </div></a>
             </div>
           </div>
         </div>
         </div>
 
         <!-- index-card-img -->
+
         <div class="footer">
-          <p>網站設計/ logo©2017 Stack Exchange Inc; 根據cc by-sa 3.0許可的用戶貢獻 ，需要歸因。</p>
+          <ul class="ul">
+            <il class="footer-il"><a href="#" style="text-decoration:none;">美食介紹</a></il>
+            <il class="footer-il"><a href="#" style="text-decoration:none;">景點介紹</a></il>
+            <il class="footer-il"><a href="#" style="text-decoration:none;">旅遊景點</a></il>
+          </ul>
+          <ul class="ul">
+            <il class="footer-il-1">電話:+886-4-775-6386</il>
+            <il class="footer-il-1">信箱:a1234@email.com</il>
+            <il class="footer-il-2">營業時間:週一至週五 09:00~18:00</il>
+          </ul>
+          <ul class="ul">
+            <il class="footer-il-1">傳真:+886-4-778-9002</il>
+            <il class="footer-il-1">地址:台灣505彰化縣鹿港鎮中正路588號</il>
+            <il class="footer-il-1">Copyright © 2017 彰化尋訪.All rights reserved.</il>
+          </ul>
+
+          <div class="footer-fb">
+            <div class="footer-f">
+              <div class="fb-like" data-href="http://127.0.0.1:5500/" data-width="30px" data-layout="button_count" data-action="like" data-size="small"
+                data-show-faces="true" data-share="true"></div>
+            </div>
+          </div>
         </div>
       </li>
 
 
 
       <li class="slider-item slider-item3">
-        <h2 class="logo"></h2>
+        <a class="logo" href="#"></a>
         <!--HamBurger Icon-->
         <div class="bars" id="nav-action">
           <span class="bar"> </span>
@@ -217,31 +240,34 @@
           </div>
         </div>
         <!-- index-card-img -->
-        <div class="container">
+        <div class="container sk">
           <div class="row">
             <div class="col-md-offset-1 col-md-3 col-sm-4 hidden-xs ">
+              <a href=""> 
               <div class="card">
                 <div class="card-img"></div>
                 <div class="card-text">
-                  <h5>text</h5>
+                  <h4>景點介紹</h4>
                 </div>
-              </div>
+              </div></a>
             </div>
             <div class=" col-md-3 col-sm-4 hidden-xs">
+              <a href=""> 
               <div class="card">
                 <div class="card-img1"></div>
                 <div class="card-text1">
-                  <h5>text</h5>
+                  <h4>美食介紹</h4>
                 </div>
-              </div>
+              </div></a>
             </div>
             <div class="col-md-3 col-sm-4 hidden-xs">
+              <a href=""> 
               <div class="card">
                 <div class="card-img2"></div>
                 <div class="card-text2">
-                  <h5>text</h5>
+                  <h4>旅遊景點</h4>
                 </div>
-              </div>
+              </div></a>
             </div>
           </div>
         </div>
@@ -249,14 +275,38 @@
 
         <!-- index-card-img -->
         <div class="footer">
-          <p>網站設計/ logo©2017 Stack Exchange Inc; 根據cc by-sa 3.0許可的用戶貢獻 ，需要歸因。</p>
+          <ul class="ul">
+            <il class="footer-il"><a href="#" style="text-decoration:none;">美食介紹</a></il>
+            <il class="footer-il"><a href="#" style="text-decoration:none;">景點介紹</a></il>
+            <il class="footer-il"><a href="#" style="text-decoration:none;">旅遊景點</a></il>
+          </ul>
+          <ul class="ul">
+            <il class="footer-il-1">電話:+886-4-775-6386</il>
+            <il class="footer-il-1">信箱:a1234@email.com</il>
+            <il class="footer-il-2">營業時間:週一至週五 09:00~18:00</il>
+          </ul>
+          <ul class="ul">
+            <il class="footer-il-1">傳真:+886-4-778-9002</il>
+            <il class="footer-il-1">地址:台灣505彰化縣鹿港鎮中正路588號</il>
+            <il class="footer-il-1">Copyright © 2017 彰化尋訪.All rights reserved.</il>
+          </ul>
+
+          <div class="footer-fb">
+            <div class="footer-f">
+              <div class="fb-like" data-href="http://127.0.0.1:5500/" data-width="30px" data-layout="button_count" data-action="like" data-size="small"
+                data-show-faces="true" data-share="true"></div>
+            </div>
+          </div>
         </div>
+
+
+
       </li>
 
 
 
       <li class="slider-item slider-item4">
-        <h2 class="logo"></h2>
+        <a class="logo" href="#"></a>
         <!--HamBurger Icon-->
         <div class="bars" id="nav-action">
           <span class="bar"> </span>
@@ -275,31 +325,34 @@
           </div>
         </div>
         <!-- index-card-img -->
-        <div class="container">
+        <div class="container sk">
           <div class="row">
             <div class="col-md-offset-1 col-md-3 col-sm-4 hidden-xs ">
+              <a href=""> 
               <div class="card">
                 <div class="card-img"></div>
                 <div class="card-text">
-                  <h5>text</h5>
+                  <h4>景點介紹</h4>
                 </div>
-              </div>
+              </div></a>
             </div>
             <div class=" col-md-3 col-sm-4 hidden-xs">
+              <a href=""> 
               <div class="card">
                 <div class="card-img1"></div>
                 <div class="card-text1">
-                  <h5>text</h5>
+                  <h4>美食介紹</h4>
                 </div>
-              </div>
+              </div></a>
             </div>
             <div class="col-md-3 col-sm-4 hidden-xs">
+              <a href=""> 
               <div class="card">
                 <div class="card-img2"></div>
                 <div class="card-text2">
-                  <h5>text</h5>
+                  <h4>旅遊景點</h4>
                 </div>
-              </div>
+              </div></a>
             </div>
           </div>
         </div>
@@ -307,14 +360,35 @@
 
         <!-- index-card-img -->
         <div class="footer">
-          <p>網站設計/ logo©2017 Stack Exchange Inc; 根據cc by-sa 3.0許可的用戶貢獻 ，需要歸因。</p>
+          <ul class="ul">
+            <il class="footer-il"><a href="#" style="text-decoration:none;">美食介紹</a></il>
+            <il class="footer-il"><a href="#" style="text-decoration:none;">景點介紹</a></il>
+            <il class="footer-il"><a href="#" style="text-decoration:none;">旅遊景點</a></il>
+          </ul>
+          <ul class="ul">
+            <il class="footer-il-1">電話:+886-4-775-6386</il>
+            <il class="footer-il-1">信箱:a1234@email.com</il>
+            <il class="footer-il-2">營業時間:週一至週五 09:00~18:00</il>
+          </ul>
+          <ul class="ul">
+            <il class="footer-il-1">傳真:+886-4-778-9002</il>
+            <il class="footer-il-1">地址:台灣505彰化縣鹿港鎮中正路588號</il>
+            <il class="footer-il-1">Copyright © 2017 彰化尋訪.All rights reserved.</il>
+          </ul>
+
+          <div class="footer-fb">
+            <div class="footer-f">
+              <div class="fb-like" data-href="http://127.0.0.1:5500/" data-width="30px" data-layout="button_count" data-action="like" data-size="small"
+                data-show-faces="true" data-share="true"></div>
+            </div>
+          </div>
         </div>
       </li>
 
 
 
       <li class="slider-item slider-item5">
-        <h2 class="logo"></h2>
+        <a class="logo" href="#"></a>
         <!--HamBurger Icon-->
         <div class="bars" id="nav-action">
           <span class="bar"> </span>
@@ -333,38 +407,62 @@
           </div>
         </div>
         <!-- index-card-img -->
-        <div class="container">
+        <div class="container sk">
           <div class="row">
             <div class="col-md-offset-1 col-md-3 col-sm-4 hidden-xs ">
+              <a href=""> 
               <div class="card">
                 <div class="card-img"></div>
                 <div class="card-text">
-                  <h5>text</h5>
+                  <h4>景點介紹</h4>
                 </div>
-              </div>
+              </div></a>
             </div>
             <div class=" col-md-3 col-sm-4 hidden-xs">
+              <a href=""> 
               <div class="card">
                 <div class="card-img1"></div>
                 <div class="card-text1">
-                  <h5>text</h5>
+                  <h4>美食介紹</h4>
                 </div>
-              </div>
+              </div></a>
             </div>
             <div class="col-md-3 col-sm-4 hidden-xs">
+              <a href=""> 
               <div class="card">
                 <div class="card-img2"></div>
                 <div class="card-text2">
-                  <h5>text</h5>
+                  <h4>旅遊景點</h4>
                 </div>
-              </div>
+              </div></a>
             </div>
           </div>
         </div>
         </div>
         <!-- index-card-img -->
+
         <div class="footer">
-          <p>網站設計/ logo©2017 Stack Exchange Inc; 根據cc by-sa 3.0許可的用戶貢獻 ，需要歸因。</p>
+          <ul class="ul">
+            <il class="footer-il"><a href="#" style="text-decoration:none;">美食介紹</a></il>
+            <il class="footer-il"><a href="#" style="text-decoration:none;">景點介紹</a></il>
+            <il class="footer-il"><a href="#" style="text-decoration:none;">旅遊景點</a></il>
+          </ul>
+          <ul class="ul">
+            <il class="footer-il-1">電話:+886-4-775-6386</il>
+            <il class="footer-il-1">信箱:a1234@email.com</il>
+            <il class="footer-il-2">營業時間:週一至週五 09:00~18:00</il>
+          </ul>
+          <ul class="ul">
+            <il class="footer-il-1">傳真:+886-4-778-9002</il>
+            <il class="footer-il-1">地址:台灣505彰化縣鹿港鎮中正路588號</il>
+            <il class="footer-il-1">Copyright © 2017 彰化尋訪.All rights reserved.</il>
+          </ul>
+          <div class="footer-fb">
+            <div class="footer-f">
+              <div class="fb-like" data-href="http://127.0.0.1:5500/" data-width="30px" data-layout="button_count" data-action="like" data-size="small"
+                data-show-faces="true" data-share="true"></div>
+            </div>
+          </div>
         </div>
       </li>
 
@@ -377,6 +475,17 @@
   <!-- Include all compiled plugins (below), or include individual files as needed -->
   <script src="js/bootstrap.min.js"></script>
   <script src="js/nav.js"></script>
+
+  <div id="fb-root"></div>
+  <script>
+    (function (d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/zh_TW/sdk.js#xfbml=1&version=v2.10";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+  </script>
 
 </body>
 
