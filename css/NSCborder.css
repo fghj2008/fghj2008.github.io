@@ -1,0 +1,499 @@
+body{
+    font-family:Microsoft JhengHei;
+    position: relative;
+}
+/*第一張大圖*/
+.NSC-img-A{
+    width: 100%;
+    height: 680px;
+    background-image: url("https://images.unsplash.com/photo-1465146344425-f00d5f5c8f07?dpr=1&amp;auto=format&amp;fit=crop&amp;w=1080&amp;h=715&amp;q=80&amp;cs=tinysrgb&amp;crop=");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: 0 80%;
+}
+
+/*北彰化的框框*/
+.NSC-font-border{
+    background-color:#FFF;
+    box-shadow:  5px 5px 10px #C9C9C9; 
+    position: absolute;
+    top: calc(35% - 50px);
+    left: 23%;
+    padding: 8px 16px ;
+}
+
+/*北 彰化*/
+.NSC-font-A{
+    font-size: 46px;
+    color:#3FA7B2;
+    font-weight:bold;
+    letter-spacing: 5px;
+    margin-bottom: -10px; 
+    margin-top: -12px;
+}
+
+/*North Changhua*/
+.NSC-font-B{
+    font-size: 18px;
+    color:#225656;
+    font-weight:bold;
+    letter-spacing: 1.5px;
+    text-align: center;
+    margin-bottom: 2px; 
+}
+
+/*第一行*/
+.NSC-font-C{
+    text-align:left;
+    font-size: 20px;
+    color:#232323;
+    font-weight:bold;
+    letter-spacing: 5px;
+    top: calc(17% - 40px);
+    left: 23%;
+}
+
+/****遮色片一****/
+.text-font-AAA{
+    background-color:  rgba(255,255,255,0.7);
+    width: 64%;
+    position: absolute;
+    top: calc(50% - 40px);
+    left: 23%;
+    display:inline-block;
+    padding: 10px 19px;
+}
+
+/*點點圖*/
+.NSC-img-B{
+    width:100%;
+    background-image: url("https://www.toptal.com/designers/subtlepatterns/patterns/ep_naturalwhite.png");
+    background-position: 0 50%;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    
+}
+
+.col-20{
+    width: 20%;
+    float: left;
+    box-sizing: border-box;
+    padding-left:10px;
+    padding-right:10px;
+}
+
+.card{
+    background-color:  rgba(255,255,255,0.3);
+    box-shadow: #AAAAAA 0px 4px 5px;
+    height: 80px;
+    border-left:15px solid #3FA7B2 ;
+    padding-left: 10px;
+    text-align:left;
+}
+
+
+.text{
+    text-align: center;
+    vertical-align:top;
+}
+
+
+/**第一部分文字**/
+
+.img-b-fonta{
+
+    border: 1px solid  transparent;
+    color:#0D3A38;
+    font-size: 30px;
+    font-weight:bold;
+    letter-spacing: 5px;
+    display: inline-block;
+
+}
+
+.img-b-fontb{
+
+    border: 1px solid  transparent;
+    color:#0D3A38;    
+    font-size: 18px;  
+    letter-spacing: 3px;
+    display: inline-block;
+}
+
+
+/*第二張大圖*/
+.NSC-img-C{
+    width: 100%;
+    height:680px;
+    background-image: url("https://images.unsplash.com/photo-1445539962947-a7199602bd79?dpr=1&amp;auto=format&amp;fit=crop&amp;w=1500&amp;h=1001&amp;q=80&amp;cs=tinysrgb&amp;crop=");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: 0 90%;
+
+}
+
+
+
+/*南彰化的框框*/
+.NSC-font-border-CC{
+    background-color:#FFF;
+    box-shadow:  5px 5px 10px #3D3D3D; 
+    position: absolute;
+    top: calc(35% - 50px);
+    left: 23%;
+    padding: 8px 16px ;
+}
+
+/*南 彰化*/
+.NSC-font-AA{
+    font-size: 46px;
+    color:#FF5A27;
+    font-weight:bold;
+    letter-spacing: 5px;
+    margin-bottom: -10px; 
+    margin-top: -12px;
+}
+
+/*Sorth Changhua*/
+.NSC-font-BB{
+    font-size: 18px;
+    color:#661E12;
+    font-weight:bold;
+    letter-spacing: 1.5px;
+    text-align: center;
+    margin-bottom: 2px; 
+}
+
+/****遮色片二****/
+.text-font-BBB{
+    background-color:  rgba(255,255,255,0.7);
+    width: 43.8%;
+    position: absolute;
+    top: calc(50% - 40px);
+    left: 23%;
+    display:inline-block;
+    padding: 10px 19px;
+    /*top: calc(68.5% - 50px);*/
+}
+
+.card-2{
+    background-color:  rgba(255,255,255,0.3);
+    box-shadow: #AAAAAA 0px 4px 5px;
+    height: 80px;
+    border-left:15px solid #FF5A27 ;
+    padding-left: 10px;
+    text-align:left;
+}
+
+
+.img-b-fontCCa{
+    border: 1px solid  transparent;
+    color:#682101;
+    font-size: 30px;
+    font-weight:bold;
+    letter-spacing: 5px;
+    display: inline-block;
+}
+.img-b-fontCCb{
+    border: 1px solid  transparent;
+    color:#682101;    
+    font-size: 18px;  
+    letter-spacing: 3px;
+    display: inline-block;
+}
+
+.NSC-text-ahref{
+    display:block;
+}
+ 
+
+
+
+@media screen and (max-width:996px){
+    .col-20{
+        width: 33%;
+        padding: 20px;
+    }
+
+    .NSC-img-B{
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .NSC-img-A{
+        height: 500px;
+        background-position: 0 50%;
+    }
+    .NSC-img-C{
+        height: 500px;
+        background-position: 0 50%;
+    }
+
+
+    /*北 彰化*/
+    .NSC-font-A{
+        font-size: 44px;
+    }
+
+    /*North Changhua*/
+    .NSC-font-B{
+        font-size: 16px;
+    }
+
+    /*南 彰化*/
+    .NSC-font-AA{
+        font-size: 44px;
+    }
+
+    /*Sorth Changhua*/
+    .NSC-font-BB{
+        font-size: 16px;
+    }
+
+    /*第一行*/
+    .NSC-font-C{
+        font-size: 17px;
+
+    }
+
+    /****遮色片一****/
+    .text-font-AAA{
+        width: 60%;
+        padding: 10px 19px;
+        top: calc(54% - 40px);
+    }
+
+    /****遮色片二****/
+    .text-font-BBB{
+        width: 45%;
+        padding: 10px 19px;
+        top: calc(54% - 40px);
+    }
+
+    .card{
+        height: 72px;
+    }
+
+    .card-2{
+        height: 72px;
+    }
+
+    .img-b-fonta{
+        font-size: 28px;
+    }
+
+    .img-b-fontb{
+        font-size: 16px;
+    }
+
+    .img-b-fontCCa{
+        font-size: 28px;
+    }
+
+    .img-b-fontCCb{
+        font-size: 16px;
+    }
+
+}
+
+@media screen and (max-width:607px){
+    .logo{
+        height: 50px;
+        width: 50px;
+    }
+    .col-20{
+        width: 50%;
+        padding: 20px;
+    }
+    .NSC-img-B{
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }    
+    .NSC-img-A{
+        height: 450px;
+        background-position: 0 50%;
+    }
+    .NSC-img-C{
+        height: 450px;
+        background-position: 0 50%;
+    }
+
+    /*北 彰化*/
+    .NSC-font-A{
+        font-size: 32px;
+        padding: 3px;
+    }
+
+    /*North Changhua*/
+    .NSC-font-B{
+        font-size: 12px;
+    }
+
+    /*南 彰化*/
+    .NSC-font-AA{
+        font-size: 32px;
+        padding: 3px;
+    }
+
+    /*Sorth Changhua*/
+    .NSC-font-BB{
+        font-size: 12px;
+    }
+
+    /*第一行*/
+    .NSC-font-C{
+        font-size: 15px;
+    }
+
+    /****遮色片一****/
+    .text-font-AAA{
+        width: 60%;
+    }
+
+    /****遮色片二****/
+    .text-font-BBB{
+        width: 50%;
+    }
+
+    .card{
+        height: 72px;
+    }
+
+    .card-2{
+        height: 72px;
+    }
+
+    .img-b-fonta{
+        font-size: 27px;
+    }
+
+    .img-b-fontb{
+        font-size: 17px;
+    }
+
+    .img-b-fontCCa{
+        font-size: 27px;
+    }
+
+    .img-b-fontCCb{
+        font-size: 17px;
+    }
+
+}
+
+@media screen and (max-width:414px){
+    .logo{
+        height: 40px;
+        width: 40px;
+    }
+    .col-20{
+        width: 50%;
+        padding: 20px;
+    }
+    .NSC-img-B{
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }    
+    .NSC-img-A{
+        height: 410px;
+        background-position: 0 50%;
+    }
+    .NSC-img-C{
+        height: 400px;
+        background-position: 0 50%;
+    }
+
+    /*北 彰化*/
+    .NSC-font-A{
+        font-size: 26px;
+        padding: 3px;
+    }
+
+    /*North Changhua*/
+    .NSC-font-B{
+        font-size: 10px;
+    }
+
+    /*南 彰化*/
+    .NSC-font-AA{
+        font-size: 26px;
+        padding: 3px;
+    }
+
+    /*Sorth Changhua*/
+    .NSC-font-BB{
+        font-size: 10px;
+    }
+
+    /*第一行*/
+    .NSC-font-C{
+        font-size: 12px;
+    }
+
+    /****遮色片一****/
+    .text-font-AAA{
+        width: 58%;
+        padding: 5px 19px;
+    }
+
+    /****遮色片二****/
+    .text-font-BBB{
+        width: 47%;
+        padding: 5px 19px;
+    }
+
+    .card{
+        height: 75px;
+    }
+
+    .card-2{
+        height: 75px;
+    }
+
+    .img-b-fonta{
+        font-size: 26px;
+    }
+
+    .img-b-fontb{
+        font-size: 15px;
+    }
+
+    .img-b-fontCCa{
+        font-size: 26px;
+    }
+
+    .img-b-fontCCb{
+        font-size: 15px;
+    }
+
+}
+
+@media screen and (max-width:360px){
+    .img-b-fonta{
+        font-size: 24px;
+    }
+
+    .img-b-fontb{
+        font-size: 14px;
+    }
+
+    .img-b-fontCCa{
+        font-size: 24px;
+    }
+
+    .img-b-fontCCb{
+        font-size: 14px;
+    }
+    .card{
+        height: 80px;
+    }
+
+    .card-2{
+        height: 80px;
+    }
+    .logo{
+        height: 40px;
+        width: 40px;
+    }
+
+}

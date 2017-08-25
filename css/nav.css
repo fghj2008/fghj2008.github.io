@@ -239,18 +239,18 @@ article a:hover {
 .logo {
     background-image: url("../images/LOGO.gif");
     background-size: cover;
-    height: 60px;
-    width: 60px;
+    height: 120px;
+    width: 80px;
     position: absolute;
-    top: 25px;
+    top: 35px;
     left: 50px;
 }
 /* footer */
 .footer {
-    position: absolute;
     bottom: 0;
     width: 100%;
     background: white;
+    
 }
 
 .ul {

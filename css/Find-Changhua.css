@@ -1,0 +1,344 @@
+.ba-img {
+    background-image: url("../img/shelby-deeter-90025.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 80vh;
+    background-attachment: fixed;
+    background-position: 50% 0%;
+}
+
+.ba-img-text {
+    font-size: 100px;
+    font-weight: 500;
+    font-family: 微軟正黑體;
+    color: white;
+    text-shadow: 2px 2px 2px #000;
+    text-align: left;
+    letter-spacing: 30px;
+    margin-top: 230px;
+}
+
+@media screen and (max-width:1170px) {
+    .ba-img-text {
+        text-align: center;
+        font-size: 50px;
+    }
+}
+
+.ba-img-text-p {
+    font-size: 20px;
+    font-weight: 300;
+    font-family: 微軟正黑體;
+    color: white;
+    text-shadow: 2px 2px 2px #F8E8CE;
+    text-align: left;
+    margin-top: 25px;
+    letter-spacing: 2px;
+}
+
+@media screen and (max-width:1170px) {
+    .ba-img-text-p {
+        font-size: 15px;
+        text-align: center;
+    }
+}
+
+.hr {
+    border: 3px;
+    height: 5px;
+    background-color: #3FA7B2;
+    color: #3FA7B2;
+    margin-top: 30px;
+}
+
+.float-1 {
+    float: left;
+}
+
+.geography-all {
+    background-color: rgba(89, 81, 84, 0.2);
+    height: 450px;
+}
+@media screen and (max-width:1170px){
+    .geography-all{
+        height: 850px;
+    }
+}
+
+.geography {
+    font-family: 微軟正黑體;
+    font-size: 50px;
+    color: #3FA7B2;
+    font-weight: 600;
+}
+
+.geography-top {
+    margin-top: 100px;
+}
+
+@media screen and (max-width:1170px) {
+    .hr {
+        display: none;
+    }
+    .geography {
+        text-align: center;
+    }
+}
+
+.geography-img {
+    background-image: url("../img/444.gif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 240px;
+    height: 420px;
+    margin-top: 10px;
+    margin-left: 50px;
+}
+
+.geography-text {
+    font-family: 微軟正黑體;
+    font-size: 25px;
+    text-align: left;
+    margin-left: 70px;
+    margin-top: 90px;
+    line-height: 40px;
+    color: black;
+}
+
+@media screen and (max-width:1170px) {
+    .geography-text {
+        text-align: center;
+        margin-left: 0px;
+        font-size: 15px;
+        margin-top: 10px;
+    }
+}
+
+.history-top {
+    margin-top: 100px;
+}
+
+.history-all {
+    background-color: rgba(89, 81, 84, 0.2);
+    height: 450px;
+}
+
+@media screen and (max-width:767px) {
+    .history-all {
+        height: 700px;
+    }
+}
+
+.history-img {
+    background-image: url("../img/2222.gif");
+    background-size: cover;
+    width: 100%;
+    height: 250px;
+    margin-top: 90px;
+}
+
+@media screen and (max-width:1170px) {
+    .history-img {
+        display: none;
+    }
+}
+
+.history-text {
+    font-family: 微軟正黑體;
+    font-size: 20px;
+    text-align: left;
+    line-height: 35px;
+    margin-left: 100px;
+    margin-top: 40px;
+    color: black;
+}
+
+@media screen and (max-width:767px) {
+    .history-text {
+        /* margin-top: -90px; */
+        text-align: center;
+        font-size: 15px;
+        margin-left: 0px;
+    }
+}
+
+.area-top {
+    margin-top: 100px;
+}
+
+.area-top-1 {
+    margin-top: 50px;
+}
+
+.area-all {
+    background-color: rgba(89, 81, 84, 0.2);
+    height: 500px;
+}
+
+@media screen and (max-width:767px) {
+    .area-all {
+        height: 1000px;
+    }
+}
+
+.area-img {
+    background-image: url("../img/333.gif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 400px;
+}
+@media screen and (max-width:767px){
+    .area-img{
+        height: 350px;
+    }
+}
+
+.area-text-1 {
+    text-align: center;
+    font-family: 微軟正黑體;
+    font-size: 18px;
+    margin: 10px 15px;
+    color: black;
+}
+
+@media screen and (max-width:767px) {
+    .area-text-1 {
+        margin-top: 0;
+        color: black;
+    }
+}
+
+.area-text-all {
+    margin: 0px 50px;
+}
+
+@media screen and (max-width:767px) {
+    .area-text-all {
+        text-align: left;
+        margin-top: 50px;
+    }
+}
+
+.area-h3 {
+    font-family: 微軟正黑體;
+    margin-left: 53px;
+    color: #0A3F35;
+    font-weight: 700;
+}
+
+.float {
+    float: left;
+    margin-top: 10px;
+}
+
+.clear {
+    clear: both
+}
+
+.round-text {
+    font-family: 微軟正黑體;
+    font-size: 20px;
+    margin-left: 20px;
+    color: #0A3F35;
+}
+
+@media screen and (max-width:767px) {
+    .round-text {
+        font-size: 15px;
+    }
+}
+
+.round {
+    width: 28px;
+    height: 28px;
+    border-radius: 99em;
+    background-color: #80C6EE;
+}
+
+.round-2 {
+    width: 28px;
+    height: 28px;
+    border-radius: 99em;
+    background-color: #378CE4;
+}
+
+.round-3 {
+    width: 28px;
+    height: 28px;
+    border-radius: 99em;
+    background-color: #275B9C;
+}
+
+.round-4 {
+    width: 28px;
+    height: 28px;
+    border-radius: 99em;
+    background-color: #FFF04D;
+}
+
+.round-5 {
+    width: 28px;
+    height: 28px;
+    border-radius: 99em;
+    background-color: #F4BC24;
+}
+
+.round-6 {
+    width: 28px;
+    height: 28px;
+    border-radius: 99em;
+    background-color: #CCEB8D;
+}
+
+.round-7 {
+    width: 28px;
+    height: 28px;
+    border-radius: 99em;
+    background-color: #ACD759;
+}
+
+.round-8 {
+    width: 28px;
+    height: 28px;
+    border-radius: 99em;
+    background-color: #009B4C;
+}
+
+@media screen and (max-width:1170px) {
+    .round,
+    .round-2,
+    .round-3,
+    .round-4,
+    .round-5,
+    .round-6,
+    .round-7,
+    .round-8 {
+        width: 20px;
+        height: 20px;
+    }
+}
+
+.round-9 {
+    width: 30px;
+    height: 30px;
+    border-radius: 99em;
+    background-color: #000;
+}
+
+.tail {
+    position: relative;
+    margin-top: 50px;
+}
+
+.tail-text {
+    margin-left: 30px;
+    font-size: 20px;
+    font-family: 微軟正黑體;
+    margin: 10px 15px;
+    color: black;
+}
+
+.p {
+    margin: 0 0 20px;
+}

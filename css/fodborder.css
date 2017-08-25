@@ -1,0 +1,267 @@
+body{
+    font-family:Microsoft JhengHei;
+    position: relative;
+}
+
+/*第一張大圖*/
+.fod-img-a{
+    width: 100%;
+    height:calc(100vh - 100px);
+    text-align:left;
+    background-image: url("http://c1.staticflickr.com/5/4026/4696134479_69e73bee21_b.jpg");
+    background-repeat: no-repeat;
+    background-position: 50% 70%;
+    background-attachment:fixed;
+    background-size: cover;
+}
+
+/*點點圖*/
+.fod-font-b{
+    width:100%;
+    background-image: url("https://www.toptal.com/designers/subtlepatterns/patterns/ep_naturalwhite.png");
+    background-position: 0 50%;
+    color:#7F7A3B;
+    text-align:center;
+    font-size: 50px;
+    font-family:Microsoft JhengHei;
+    font-weight:bold;
+    letter-spacing: 10px;
+    line-height:100px;
+}
+
+ /****遮色片一****/
+.text-font-foda{    
+    background-color:  rgba(7,7,7,0.5);
+    width: 56%;
+    position: absolute;
+    top: calc(45% - 40px);
+    left: 22.5%;
+    display:inline-block;
+    padding: 7px 21px;
+}
+
+
+
+/****遮色片底下文字****/
+.fods-a-font{
+    color:#fff;
+    text-align:left;
+    font-size: 17px;
+    font-family:Microsoft JhengHei;
+    letter-spacing: 6px;
+    line-height: 38px;
+    text-shadow: rgb(12, 12, 12) 3px 3px 4px;
+
+}
+
+
+
+
+/**特色小吃 超連結**/
+.b-text-ahref{
+    display:block;
+}
+
+/********  font-d 連結樣式  ************/
+
+.b-text-ahref:link {
+    color: #7F7A3B;
+    text-decoration:none;
+} /* 設定尚未點閱過的連結樣式 */
+
+.b-text-ahref:visited {
+    color: #898347;
+    text-decoration:none;
+}/* 設定過去曾經閱過的連結 */
+
+.b-text-ahref:hover {
+    color: #5E592C;
+    font-size:55px;
+    text-decoration:none;
+}/* 設定滑鼠游標指在連結位置上的樣式 */
+  .b-text-ahref:hover{
+    text-decoration:none;
+  }
+.b-text-ahref:active {
+    color:brown;
+}/* 設定上點擊過的連結樣式 */
+
+
+.fod-img-c{
+    width: 100%;
+    height:calc(100vh - 100px);
+    text-align:left;
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/c/cd/Mullet_roe_by_comicpie_in_Taiwan.jpg");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-attachment:fixed;
+    background-size: cover;
+    transition: all 10s;
+    position: relative;
+}
+
+ /****遮色片二****/
+.text-font-fodb{    
+    background-color:  rgba(7,7,7,0.5);
+    width: 68%;
+    position: absolute;
+    top: calc(48% - 40px);
+    left: 15.5%;
+    display:inline-block;
+    padding:7px 21px;
+}
+
+/**伴手禮 超連結**/
+.d-text-ahref{
+    display:block;
+}
+
+/********  font-d 連結樣式  ************/
+
+.d-text-ahref:link {
+    color: #346C93;
+    text-decoration:none;
+} /* 設定尚未點閱過的連結樣式 */
+
+.d-text-ahref:visited {
+    color: #3F84AA;
+    text-decoration:none;
+}/* 設定過去曾經閱過的連結 */
+
+.d-text-ahref:hover {
+    color: #244B60;
+    font-size:55px;
+    text-decoration:none;
+}/* 設定滑鼠游標指在連結位置上的樣式 */
+  .d-text-ahref:hover{
+    text-decoration:none;
+  }
+.d-text-ahref:active {
+    color:brown;
+}/* 設定上點擊過的連結樣式 */
+
+
+
+
+@media screen and (max-width:1037px){
+     /****遮色片一****/
+    .text-font-foda{    
+        width: 90%;
+        left:6%;
+    }
+    .text-font-fodb{
+        width: 90%;
+        left:6%;
+    }
+
+
+}
+
+
+@media screen and (max-width:1025px){
+     /****遮色片一****/
+    .text-font-foda{    
+        width: 74%;
+        left:13%;
+        padding:8px 16px;
+    }
+
+    .text-font-fodb{    
+        width: 82%;
+        left:9%;
+    }
+    /****遮色片底下文字****/
+    .fods-a-font{   
+        font-size: 18px;
+    }
+
+    /***蚵仔煎***/
+    .fod-img-a{ 
+        height:calc(100vh - 80px);
+    }
+
+    .fod-img-c{
+        height:calc(100vh - 80px);
+    }
+
+
+
+}
+
+
+@media screen and (max-width:767px){
+    /***蚵仔煎***/
+    .fod-img-a{ 
+        height:calc(100vh - 80px);
+    }
+
+    .fod-img-c{
+        height:calc(100vh - 80px);
+    }
+      
+    /****遮色片一****/
+    .text-font-foda{    
+        width: 83%;
+        left:9%;
+        padding:8px 16px;
+    }
+    .text-font-fodb{
+        width: 90%;
+        left:5%;
+        padding:8px 16px;
+    }
+
+    .fods-a-font{
+        font-size: 17px;
+        letter-spacing: 3px;
+        line-height: 35px;
+    }
+
+
+}
+
+
+
+@media screen and (max-width:414px){
+    /***蚵仔煎***/
+    .fod-img-a{ 
+        height:calc(100vh - 80px);
+    }
+
+    .fod-img-c{
+        height:calc(100vh - 80px);
+    }
+
+    .fod-font-b{
+        font-size: 30px;
+    }
+
+    .fods-a-font{
+        font-size: 13px;
+        letter-spacing: 2px;
+        line-height: 20px;
+    }
+
+     /****遮色片一****/
+    .text-font-foda{    
+        width: 90%;
+        left:5%;
+    }
+    .text-font-fodb{
+         width: 90%;
+         left:5%;
+    }
+
+    .b-text-ahref:hover {
+      font-size: 40px;
+    }
+    .d-text-ahref:hover {
+      font-size: 40px;
+    }
+    .fod-font-b{
+       height:80px;
+       line-height:80px;
+    }
+    
+
+}

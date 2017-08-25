@@ -1,0 +1,768 @@
+.attractions {
+    width: 100%;
+    background-image: url("../img/matt-benson-7408.jpg");
+    background-size: 150%;
+    background-position: 35% 120%;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+}
+
+@media screen and (max-width:1170px) {
+    .attractions {
+        background-size: cover;
+    }
+}
+
+.attractions-shape {
+    width: 80%;
+    height: calc(98% - 5px);
+    background-color: black;
+    opacity: 0.5;
+    transform: skewX(1deg);
+    position: absolute;
+    left: 100px;
+    top: 100px;
+}
+
+.line-round-p {
+    padding-top: 25px;
+    font-family: 微軟正黑體;
+    font-weight: 600;
+    text-shadow: 5px 5px 5px #000;
+    font-size: 70px;
+}
+
+@media screen and (max-width:1170px) {
+    .attractions-shape {
+        display: none;
+    }
+}
+
+.line-round-text {
+    box-sizing: border-box;
+    margin-top: 450px;
+    position: relative;
+}
+
+@media screen and (max-width:1170px) {
+    .line-round-text {
+        margin-top: 150px;
+    }
+}
+
+.line {
+    box-sizing: border-box;
+    width: 100%;
+    height: 70px;
+    border: 4px solid white;
+    border-style: solid none none solid;
+    padding: 0 100px;
+    color: white;
+}
+
+@media screen and (max-width:1170px) {
+    .line {
+        border: 1px solid white;
+        border-style: none none none none;
+    }
+}
+
+.round {
+    width: 50px;
+    height: 50px;
+    border-radius: 99em;
+    background-color: white;
+    position: absolute;
+    left: -23px;
+    top: 60px;
+}
+
+@media screen and (max-width:1170px) {
+    .round {
+        display: none;
+    }
+    .line {
+        /* border-style: none none solid none; */
+        text-align: center;
+        font-size: 50px;
+    }
+}
+
+.card {
+    margin-top: 150px;
+}
+
+.card-img {
+    width: 100%;
+    height: 400px;
+    background-image: url("../img/2016071118114433844.jpg");
+    background-size: cover;
+    box-sizing: border-box;
+    margin-left: -22px;
+    box-shadow: 3px 3px 12px black;
+    padding: 3px;
+    margin-top: 50px;
+}
+
+.card-img-3 {
+    width: 100%;
+    height: 400px;
+    background-image: url("../img/就是愛荔枝樂園.jpg");
+    background-size: cover;
+    box-sizing: border-box;
+    margin-left: -22px;
+    box-shadow: 3px 3px 12px black;
+    padding: 3px;
+    margin-top: 50px;
+}
+
+.card-img-4 {
+    width: 100%;
+    height: 400px;
+    background-image: url("../img/茉莉花夢想館.jpg");
+    background-size: cover;
+    box-sizing: border-box;
+    margin-left: -22px;
+    box-shadow: 3px 3px 12px black;
+    padding: 3px;
+    margin-top: 50px;
+}
+
+.card-img-5 {
+    width: 100%;
+    height: 400px;
+    background-image: url("../img/鹿港古市街.jpg");
+    background-size: cover;
+    box-sizing: border-box;
+    margin-left: -22px;
+    box-shadow: 3px 3px 12px black;
+    padding: 3px;
+    margin-top: 50px;
+}
+
+.card-img-6 {
+    width: 100%;
+    height: 400px;
+    background-image: url("../img/和美交流道花海-2.jpg");
+    background-size: cover;
+    box-sizing: border-box;
+    margin-left: -22px;
+    box-shadow: 3px 3px 12px black;
+    padding: 3px;
+    margin-top: 50px;
+}
+
+.card-img-7 {
+    width: 100%;
+    height: 400px;
+    background-image: url("../img/琉璃仙境 -3.jpg");
+    background-size: cover;
+    box-sizing: border-box;
+    margin-left: -22px;
+    box-shadow: 3px 3px 12px black;
+    padding: 3px;
+    margin-top: 50px;
+}
+
+.card-img-8 {
+    width: 100%;
+    height: 400px;
+    background-image: url("../img/大村進昌咖啡烘焙館-1.jpg");
+    background-size: cover;
+    box-sizing: border-box;
+    margin-left: -22px;
+    box-shadow: 3px 3px 12px black;
+    padding: 3px;
+    margin-top: 50px;
+}
+
+.card-img-9 {
+    width: 100%;
+    height: 400px;
+    background-image: url("../img/溪湖糖廠-1.jpg");
+    background-size: cover;
+    box-sizing: border-box;
+    margin-left: -22px;
+    box-shadow: 3px 3px 12px black;
+    padding: 3px;
+    margin-top: 50px;
+}
+.card-img-10 {
+    width: 100%;
+    height: 400px;
+    background-image: url("../img/芳苑王功-1.jpg");
+    background-size: cover;
+    box-sizing: border-box;
+    margin-left: -22px;
+    box-shadow: 3px 3px 12px black;
+    padding: 3px;
+    margin-top: 50px;
+}
+.card-img-11 {
+    width: 100%;
+    height: 400px;
+    background-image: url("../img/彰化田尾-1.jpg");
+    background-size: cover;
+    box-sizing: border-box;
+    margin-left: -22px;
+    box-shadow: 3px 3px 12px black;
+    padding: 3px;
+    margin-top: 50px;
+}
+
+@media screen and (max-width:767px) {
+    .card-img,
+    .card-img-3,
+    .card-img-4,
+    .card-img-5,
+    .card-img-6,
+    .card-img-7,
+    .card-img-8,
+    .card-img-9,
+    .card-img-10,
+    .card-img-11
+    {
+        margin-left: 0px;
+    }
+}
+
+.card-text {
+    border: 3px solid white;
+    border-style: none none none solid;
+    padding: 0px;
+    width: 100%;
+    text-align: left;
+    padding-left: 20px;
+    margin-top: 75px;
+    font-family: 微軟正黑體;
+}
+
+.card-text-2 {
+    border: 3px solid white;
+    border-style: none none none solid;
+    padding: 0px;
+    width: 100%;
+    text-align: left;
+    padding-left: 20px;
+    margin-top: 120px;
+    font-family: 微軟正黑體;
+}
+
+.card-tex-3 {
+    border: 3px solid white;
+    border-style: none none none solid;
+    padding: 0px;
+    width: 100%;
+    text-align: left;
+    padding-left: 20px;
+    margin-top: 110px;
+    font-family: 微軟正黑體;
+}
+.card-tex-10 {
+    border: 3px solid white;
+    border-style: none none none solid;
+    padding: 0px;
+    width: 100%;
+    text-align: left;
+    padding-left: 20px;
+    margin-top: 100px;
+    font-family: 微軟正黑體;
+}
+.card-tex-9 {
+    border: 3px solid white;
+    border-style: none none none solid;
+    padding: 0px;
+    width: 100%;
+    text-align: left;
+    padding-left: 20px;
+    margin-top: 55px;
+    font-family: 微軟正黑體;
+}
+.h-text {
+    /* margin-top: 60px; */
+    font-size: 30px;
+    font-weight: 400;
+    color: white;
+    font-family: 微軟正黑體;
+    word-spacing: 5px;
+    padding-top: 0;
+}
+
+@media screen and (max-width:1170px) {
+    .h-text {
+        margin-top: 100px;
+    }
+}
+
+.p-text {
+    margin-top: 15px;
+    line-height: 35px;
+    word-spacing: 5px;
+    font-size: 17px;
+    color: white;
+}
+
+@media screen and (max-width:767px) {
+    .h-text {
+        text-align: center;
+    }
+    .p-text {
+        margin-top: 15px;
+        text-align: center;
+    }
+    .card-text {
+        border-style: none none solid none;
+        margin-top: -60px;
+    }
+}
+
+.camera-camera-text {
+    width: 330px;
+    border: 3px solid white;
+    border-style: none none solid none;
+    padding-top: 50px;
+    margin-top: 30px;
+    margin: 0 auto;
+}
+
+.flot {
+    float: left;
+}
+
+.camera {
+    background-image: url("../img/網頁設計-北彰化與南彰化-ICON-1.gif");
+    background-size: cover;
+    margin-bottom: 10px;
+    width: 80px;
+    height: 55px;
+}
+
+.camera-text {
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+    font-family: 微軟正黑體;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.clear {
+    clear: left;
+}
+
+.container-img {
+    box-sizing: border-box;
+    margin-top: 30px;
+}
+
+.img1 {
+    width: 100%;
+    height: 200px;
+    background-image: url("../img/32986_37115.jpg");
+    background-size: cover;
+    margin: 0 auto;
+    box-shadow: 3px 3px 12px black;
+    padding: 3px;
+}
+
+.img2 {
+    width: 100%;
+    height: 200px;
+    background-image: url("../img/32986_37118.jpg");
+    background-size: cover;
+    margin: 0 auto;
+    box-shadow: 3px 3px 12px black;
+    padding: 3px;
+}
+
+.img3 {
+    width: 100%;
+    height: 200px;
+    background-image: url("../img/32986_37117.jpg");
+    background-size: cover;
+    margin: 0 auto;
+    box-shadow: 3px 3px 12px black;
+    padding: 3px;
+}
+
+.img1-3 {
+    width: 100%;
+    height: 200px;
+    background-image: url("../img/就是愛荔枝樂園-1.jpg");
+    background-size: cover;
+    margin: 0 auto;
+    box-shadow: 3px 3px 12px black;
+    padding: 3px;
+}
+
+.img2-3 {
+    width: 100%;
+    height: 200px;
+    background-image: url("../img/就是愛荔枝樂園-2.jpg");
+    background-size: cover;
+    margin: 0 auto;
+    box-shadow: 3px 3px 12px black;
+    padding: 3px;
+}
+
+.img3-3 {
+    width: 100%;
+    height: 200px;
+    background-image: url("../img/就是愛荔枝樂園-3.jpg");
+    background-size: cover;
+    margin: 0 auto;
+    box-shadow: 3px 3px 12px black;
+    padding: 3px;
+}
+
+.img1-4 {
+    width: 100%;
+    height: 200px;
+    background-image: url("../img/茉莉花夢想館-1.jpg");
+    background-size: cover;
+    margin: 0 auto;
+    box-shadow: 3px 3px 12px black;
+    padding: 3px;
+}
+
+.img2-4 {
+    width: 100%;
+    height: 200px;
+    background-image: url("../img/茉莉花夢想館-3.jpg");
+    background-size: cover;
+    margin: 0 auto;
+    box-shadow: 3px 3px 12px black;
+    padding: 3px;
+}
+
+.img3-4 {
+    width: 100%;
+    height: 200px;
+    background-image: url("../img/茉莉花夢想館-4.jpg");
+    background-size: cover;
+    margin: 0 auto;
+    box-shadow: 3px 3px 12px black;
+    padding: 3px;
+}
+
+.img1-5 {
+    width: 100%;
+    height: 200px;
+    background-image: url("../img/鹿港古市街-2.jpg");
+    background-size: cover;
+    margin: 0 auto;
+    box-shadow: 3px 3px 12px black;
+    padding: 3px;
+}
+
+.img2-5 {
+    width: 100%;
+    height: 200px;
+    background-image: url("../img/鹿港古市街-3.jpg");
+    background-size: cover;
+    margin: 0 auto;
+    box-shadow: 3px 3px 12px black;
+    padding: 3px;
+}
+
+.img3-5 {
+    width: 100%;
+    height: 200px;
+    background-image: url("../img/摸乳巷.jpg");
+    background-size: cover;
+    margin: 0 auto;
+    box-shadow: 3px 3px 12px black;
+    padding: 3px;
+}
+
+.img1-6 {
+    width: 100%;
+    height: 200px;
+    background-image: url("../img/和美交流道花海-2.jpg");
+    background-size: cover;
+    margin: 0 auto;
+    box-shadow: 3px 3px 12px black;
+    padding: 3px;
+}
+
+.img2-6 {
+    width: 100%;
+    height: 200px;
+    background-image: url("../img/和美交流道花海-3.jpg");
+    background-size: cover;
+    margin: 0 auto;
+    box-shadow: 3px 3px 12px black;
+    padding: 3px;
+}
+
+.img3-6 {
+    width: 100%;
+    height: 200px;
+    background-image: url("../img/和美交流道花海-5.jpg");
+    background-size: cover;
+    margin: 0 auto;
+    box-shadow: 3px 3px 12px black;
+    padding: 3px;
+}
+
+.img1-7 {
+    width: 100%;
+    height: 200px;
+    background-image: url("../img/琉璃仙境-1.jpg");
+    background-size: cover;
+    margin: 0 auto;
+    box-shadow: 3px 3px 12px black;
+    padding: 3px;
+}
+
+.img2-7 {
+    width: 100%;
+    height: 200px;
+    background-image: url("../img/琉璃仙境-2.jpg");
+    background-size: cover;
+    margin: 0 auto;
+    box-shadow: 3px 3px 12px black;
+    padding: 3px;
+}
+
+.img3-7 {
+    width: 100%;
+    height: 200px;
+    background-image: url("../img/琉璃仙境-4.jpg");
+    background-size: cover;
+    margin: 0 auto;
+    box-shadow: 3px 3px 12px black;
+    padding: 3px;
+}
+
+.img1-8 {
+    width: 100%;
+    height: 200px;
+    background-image: url("../img/大村進昌咖啡烘焙館-2.jpg");
+    background-size: cover;
+    margin: 0 auto;
+    box-shadow: 3px 3px 12px black;
+    padding: 3px;
+}
+
+.img2-8 {
+    width: 100%;
+    height: 200px;
+    background-image: url("../img/大村進昌咖啡烘焙館-3.jpg");
+    background-size: cover;
+    margin: 0 auto;
+    box-shadow: 3px 3px 12px black;
+    padding: 3px;
+}
+
+.img3-8 {
+    width: 100%;
+    height: 200px;
+    background-image: url("../img/大村進昌咖啡烘焙館-4.jpg");
+    background-size: cover;
+    margin: 0 auto;
+    box-shadow: 3px 3px 12px black;
+    padding: 3px;
+}
+
+.img1-9 {
+    width: 100%;
+    height: 200px;
+    background-image: url("../img/溪湖糖廠-2.jpg");
+    background-size: cover;
+    margin: 0 auto;
+    box-shadow: 3px 3px 12px black;
+    padding: 3px;
+}
+
+.img2-9 {
+    width: 100%;
+    height: 200px;
+    background-image: url("../img/溪湖糖廠-3.jpg");
+    background-size: cover;
+    margin: 0 auto;
+    box-shadow: 3px 3px 12px black;
+    padding: 3px;
+}
+
+.img3-9 {
+    width: 100%;
+    height: 200px;
+    background-image: url("../img/溪湖糖廠-4.jpg");
+    background-size: cover;
+    margin: 0 auto;
+    box-shadow: 3px 3px 12px black;
+    padding: 3px;
+}
+
+.img1-10 {
+    width: 100%;
+    height: 200px;
+    background-image: url("../img/芳苑王功-2.jpg");
+    background-size: cover;
+    margin: 0 auto;
+    box-shadow: 3px 3px 12px black;
+    padding: 3px;
+}
+
+.img2-10 {
+    width: 100%;
+    height: 200px;
+    background-image: url("../img/芳苑王功-3.jpg");
+    background-size: cover;
+    margin: 0 auto;
+    box-shadow: 3px 3px 12px black;
+    padding: 3px;
+}
+
+.img3-10 {
+    width: 100%;
+    height: 200px;
+    background-image: url("../img/芳苑王功-4.jpg");
+    background-size: cover;
+    margin: 0 auto;
+    box-shadow: 3px 3px 12px black;
+    padding: 3px;
+}
+.img1-11 {
+    width: 100%;
+    height: 200px;
+    background-image: url("../img/彰化田尾-2.jpg");
+    background-size: cover;
+    margin: 0 auto;
+    box-shadow: 3px 3px 12px black;
+    padding: 3px;
+}
+
+.img2-11 {
+    width: 100%;
+    height: 200px;
+    background-image: url("../img/彰化田尾-3.jpg");
+    background-size: cover;
+    margin: 0 auto;
+    box-shadow: 3px 3px 12px black;
+    padding: 3px;
+}
+
+.img3-11 {
+    width: 100%;
+    height: 200px;
+    background-image: url("../img/彰化田尾-4.jpg");
+    background-size: cover;
+    margin: 0 auto;
+    box-shadow: 3px 3px 12px black;
+    padding: 3px;
+}
+@media screen and (max-width:767px) {
+    .img3,
+    .img2,
+    .img1 {
+        margin-top: 30px;
+    }
+    .img3-3,
+    .img2-3,
+    .img1-3 {
+        margin-top: 30px;
+    }
+    .img3-4,
+    .img2-4,
+    .img1-4 {
+        margin-top: 30px;
+    }
+    .img3-5,
+    .img2-5,
+    .img1-5 {
+        margin-top: 30px;
+    }
+    .img3-6,
+    .img2-6,
+    .img1-6 {
+        margin-top: 30px;
+    }
+    .img3-7,
+    .img2-7,
+    .img1-7 {
+        margin-top: 30px;
+    }
+    .img3-8,
+    .img2-8,
+    .img1-8 {
+        margin-top: 30px;
+    }
+    .img3-9,
+    .img2-9,
+    .img1-9 {
+        margin-top: 30px;
+    }
+}
+
+.h-text3 {
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+    font-family: 微軟正黑體;
+}
+
+.ic {
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 80px;
+    border: 2px dashed white;
+    border-style: none none dashed none;
+}
+
+.ic-img {
+    width: 31px;
+    height: 40px;
+    background-image: url("../img/網頁設計-北彰化與南彰化-ICON-2.gif");
+    background-size: cover;
+    margin-left: 150px;
+}
+
+.ic-img-1 {
+    width: 31px;
+    height: 40px;
+    background-image: url("../img/網頁設計-北彰化與南彰化-ICON-2.gif");
+    background-size: cover;
+    margin-left: 70px;
+}
+
+.ic-text {
+    font-family: 微軟正黑體;
+    font-size: 20px;
+    color: white;
+    margin-top: 5px;
+    margin-left: 30px;
+    margin-bottom: 15px;
+    word-spacing: 20px;
+}
+
+@media screen and (max-width:767px) {
+    .ic-text {
+        font-size: 25px;
+    }
+    .ic-img {
+        width: 30px;
+        height: 30px;
+        margin: 0 auto;
+    }
+}
+
+.p-text2 {
+    font-family: 微軟正黑體;
+    margin-right: 10px;
+    color: #00FFFF;
+    font-size: 40px;
+}
+
+.container .row .col-md-12.col-xs-12.col-sm-12 .text {
+    left: 40%;
+    display: inline-block;
+}
+
+.container-fluid {
+    padding-right: 0px;
+    padding-left: 0px;
+}
