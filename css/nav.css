@@ -239,8 +239,8 @@ article a:hover {
 .logo {
     background-image: url("../images/LOGO.gif");
     background-size: cover;
-    height: 120px;
-    width: 80px;
+    height: 100px;
+    width: 60px;
     position: absolute;
     top: 35px;
     left: 50px;
@@ -308,4 +308,16 @@ article a:hover {
     position: absolute;
     right: 50px;
     bottom: 50%;
+}
+
+
+@media screen and (max-width:415px) {
+
+/*logo*/
+    .logo {
+        height: 56px;
+        width: 35px;
+        top: 35px;
+        left: 45px;
+    }
 }
