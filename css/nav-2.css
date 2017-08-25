@@ -108,11 +108,12 @@ ul {
     box-shadow: 0 0px 0px rgba(4, 26, 62, 0.5);
     font-size: 30px;
 }
-  @media screen and (max-width:767px) {
-    .shape-circle{
-      font-size: 10px;
+
+@media screen and (max-width:767px) {
+    .shape-circle {
+        font-size: 10px;
     }
-  }
+}
 
 nav.visible li:first-child {
     width: 200vw;
@@ -247,6 +248,15 @@ article a:hover {
     left: 100px;
 }
 
+@media screen and (max-width:767px) {
+    .logo {
+        top: 25px;
+        left: 50px;
+        height: 80px;
+        width: 45px;
+    }
+}
+
 
 /* footer */
 
@@ -257,6 +267,13 @@ article a:hover {
     background-color: white;
     bottom: 0;
     padding: 1px;
+}
+
+@media screen and (max-width:767px) {
+    .footer {
+        padding: 35px;
+        line-height: 230%;
+    }
 }
 
 .ul {

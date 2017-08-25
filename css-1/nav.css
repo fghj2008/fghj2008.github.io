@@ -257,6 +257,15 @@ article a:hover {
     top: 50px;
     left: 100px;
 }
+@media screen and (max-width:767px) {
+    .logo {
+        top: 25px;
+        left: 20px;
+        height: 80px;
+        width: 45px;
+    }
+}
+
 
 
 /* footer */
@@ -269,6 +278,12 @@ article a:hover {
     bottom: 0;
     padding: 1px;
     margin-top: 150px;
+}
+@media screen and (max-width:767px) {
+    .footer {
+        padding: 35px;
+        line-height: 230%;
+    }
 }
 
 .ul {

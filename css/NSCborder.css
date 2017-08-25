@@ -297,10 +297,10 @@ body{
 }
 
 @media screen and (max-width:607px){
-    .logo{
+    /* .logo{
         height: 50px;
         width: 50px;
-    }
+    } */
     .col-20{
         width: 50%;
         padding: 20px;
@@ -382,10 +382,10 @@ body{
 }
 
 @media screen and (max-width:414px){
-    .logo{
+    /* .logo{
         height: 40px;
         width: 40px;
-    }
+    } */
     .col-20{
         width: 50%;
         padding: 20px;
@@ -491,9 +491,9 @@ body{
     .card-2{
         height: 80px;
     }
-    .logo{
+    /* .logo{
         height: 40px;
         width: 40px;
-    }
+    } */
 
 }

@@ -33,6 +33,11 @@
     text-shadow: 5px 5px 5px #000;
     font-size: 70px;
 }
+@media screen and (max-width:1170px){
+    .line-round-p{
+        font-size: 50px;
+    }
+}
 
 @media screen and (max-width:1170px) {
     .attractions-shape {
@@ -319,7 +324,7 @@
 }
 
 .camera-camera-text {
-    width: 330px;
+    width: 240px;
     border: 3px solid white;
     border-style: none none solid none;
     padding-top: 50px;
@@ -390,7 +395,7 @@
 .img1-3 {
     width: 100%;
     height: 200px;
-    background-image: url("../img/就是愛荔枝樂園-1.jpg");
+    background-image: url("../img/就是愛荔枝樂園-1.JPG");
     background-size: cover;
     margin: 0 auto;
     box-shadow: 3px 3px 12px black;
@@ -400,7 +405,7 @@
 .img2-3 {
     width: 100%;
     height: 200px;
-    background-image: url("../img/就是愛荔枝樂園-2.jpg");
+    background-image: url("../img/就是愛荔枝樂園-2.JPG");
     background-size: cover;
     margin: 0 auto;
     box-shadow: 3px 3px 12px black;
