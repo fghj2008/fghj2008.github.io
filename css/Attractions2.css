@@ -1,3 +1,4 @@
+
 .attractions {
     width: 100%;
     background-image: url("../img/matt-benson-7408.jpg");
@@ -857,4 +858,9 @@
 .container-fluid {
     padding-right: 0px;
     padding-left: 0px;
+}
+.row{
+    margin-left: 0px;
+    margin-right: 0px;
+
 }
