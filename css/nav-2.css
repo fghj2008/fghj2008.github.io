@@ -239,10 +239,10 @@ article a:hover {
 /*logo*/
 
 .logo {
-    background-image: url("../img/LOGO.gif");
+    background-image: url("../img/LOGO2.gif");
     background-size: cover;
-    height: 120px;
-    width: 80px;
+    height: 150px;
+    width: 110px;
     position: absolute;
     top: 50px;
     left: 100px;
@@ -253,7 +253,7 @@ article a:hover {
         top: 25px;
         left: 50px;
         height: 80px;
-        width: 45px;
+        width: 60px;
         z-index: 1;
     }
 }
