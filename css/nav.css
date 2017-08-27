@@ -248,6 +248,7 @@ article a:hover {
     position: absolute;
     top: 35px;
     left: 50px;
+    z-index: 1;
 }
 
 

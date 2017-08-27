@@ -254,6 +254,7 @@ article a:hover {
         left: 50px;
         height: 80px;
         width: 45px;
+        z-index: 1;
     }
 }
 
@@ -271,7 +272,7 @@ article a:hover {
 
 @media screen and (max-width:767px) {
     .footer {
-        padding: 35px;
+        padding: 42px;
         line-height: 230%;
     }
 }
