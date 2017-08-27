@@ -251,9 +251,9 @@ article a:hover {
 @media screen and (max-width:767px) {
     .logo {
         top: 25px;
-        left: 50px;
-        height: 80px;
-        width: 60px;
+        left: 30px;
+        height: 100px;
+        width: 70px;
         z-index: 1;
     }
 }
