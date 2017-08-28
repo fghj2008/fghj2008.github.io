@@ -239,10 +239,10 @@ article a:hover {
 /*logo*/
 
 .logo {
-    background-image: url("../img/LOGO2.gif");
+    background-image: url("../img/LOGO2.png");
     background-size: cover;
     height: 150px;
-    width: 110px;
+    width: 150px;
     position: absolute;
     top: 50px;
     left: 100px;
