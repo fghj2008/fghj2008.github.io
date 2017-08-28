@@ -1,6 +1,12 @@
 @charset "UTF-8";
 * {
   font-family: 微軟正黑體; }
+html{
+  overflow: scroll;
+}
+body{
+  overflow: hidden;
+}
 
 h1 {
   padding: 0px;
@@ -34,12 +40,12 @@ h1 {
   background-image: url("../images/標題圖片.gif"); }
 
 .text {
-  position: relative;
+  position: absolute;
   display: block;
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
-  top: -50%;
+  top: 50%;
   width: 100%;
   background-color: rgba(255, 255, 255, 0.5);
   text-align: center; }
@@ -78,7 +84,8 @@ section#go {
   margin-top: 30px; }
   section#go .container {
     position: relative;
-    left: 3%; }
+    /* left: 3%;  */
+  }
     section#go .container .go-title#title_1 {
       -webkit-transform: skewX(15deg);
       -ms-transform: skewX(15deg);
@@ -117,11 +124,11 @@ section#day {
   margin-bottom: 60px; }
   section#day .container {
     position: relative;
-    left: 3%; }
+     }
     section#day .container .go-title#title_1 {
       -webkit-transform: skewX(15deg);
       -ms-transform: skewX(15deg);
-      transform: skewX(15deg);
+      transform: skewX(14deg);
       padding: 30px;
       font-size: 24px;
       color: #555;
